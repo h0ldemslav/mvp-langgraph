@@ -10,8 +10,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 ALLOWED_WRITE_PREFIXES = (
     "backend/",
     "frontend/",
-    "ARCHITECTURE.md",
-    "README.md",
+    "docs/",
 )
 
 # Povolené příkazy pro QA agenta
