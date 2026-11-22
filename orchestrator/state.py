@@ -2,6 +2,7 @@ from typing import Literal, TypedDict
 
 
 class GraphState(TypedDict):
+    current_milestone: str
     architecture_plan: str
     backend_summary: str
     frontend_summary: str
